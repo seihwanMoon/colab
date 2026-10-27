@@ -1,0 +1,9 @@
+
+
+# Prevent accidental credential commits
+.env
+.env.*
+!.env.example
+!.env.sample
+.ipynb_checkpoints/
+**/.streamlit/secrets.toml
